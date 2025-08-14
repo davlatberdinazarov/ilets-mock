@@ -1,0 +1,119 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+body {
+  margin: 0;
+  background: #f7f7fb;
+}
+.container {
+  max-width: 860px;
+  margin: 24px auto;
+  padding: 16px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.btn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #1a73e8;
+  color: #fff;
+}
+.btn.secondary {
+  background: #6b7280;
+}
+.option {
+  border: 1px solid #e5e7eb;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 6px 0;
+  cursor: pointer;
+}
+.option.selected {
+  border-color: #1a73e8;
+  background: #e8f0fe;
+}
+.options {
+  margin-top: 8px;
+}
+.question {
+  margin-bottom: 20px;
+}
+.timer {
+  font-weight: 600;
+}
+.nav {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+.nav button {
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  background: #fff;
+  cursor: pointer;
+}
+.nav button.active {
+  background: #1a73e8;
+  color: #fff;
+  border-color: #1a73e8;
+}
+.result-item {
+  border-bottom: 1px dashed #e5e7eb;
+  padding: 8px 0;
+}
+.badge {
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: #e5e7eb;
+  font-size: 12px;
+}
+.success {
+  color: #0f766e;
+}
+.error {
+  color: #b91c1c;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+.table th,
+.table td {
+  border: 1px solid #e5e7eb;
+  padding: 8px;
+  text-align: left;
+}
+.table thead {
+  background: #f3f4f6;
+}
+.input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  margin: 6px 0;
+}
+.select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  margin: 6px 0;
+}
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
